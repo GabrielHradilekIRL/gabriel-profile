@@ -1,40 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Meta tags and existing links -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gabriel Hradilek - Profile</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
-  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
   <header class="hero animate__animated animate__fadeInDown">
-    <!-- Header content -->
+    <div class="container">
+      <img src="assets/profile.jpg" alt="Gabriel Hradilek" class="profile-img" />
+      <h1>Gabriel Hradilek</h1>
+      <p class="subtitle">Technology Executive & Innovation Strategist</p>
+      <a href="https://www.linkedin.com/in/gabrielhradilek" target="_blank" class="btn">View LinkedIn</a>
+    </div>
   </header>
 
   <section class="about" data-aos="fade-up">
-    <!-- About content -->
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am the COO at K-MATIC (KOREC Group), leading geospatial software innovation. With a deep background in digital strategy and enterprise SaaS, I transform vision into scalable tech solutions.</p>
+    </div>
   </section>
 
   <section class="skills" data-aos="fade-up">
-    <!-- Skills with progress bars -->
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skill">
+        <p>Leadership</p>
+        <div class="progress-bar">
+          <div class="progress" data-width="90%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>Digital Strategy</p>
+        <div class="progress-bar">
+          <div class="progress" data-width="85%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>Geospatial Tech</p>
+        <div class="progress-bar">
+          <div class="progress" data-width="80%"></div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="experience" data-aos="fade-up">
-    <!-- Experience content -->
+    <div class="container">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>COO, K-MATIC (KOREC Group):</strong> Leading development of geospatial SaaS platforms.</li>
+        <li><strong>Leadership at IBM:</strong> Digital transformation and enterprise solutions across industries.</li>
+      </ul>
+    </div>
   </section>
 
   <section class="education" data-aos="fade-up">
-    <!-- Education content -->
+    <div class="container">
+      <h2>Education</h2>
+      <p>Faculty of Informatics and Information Technologies, Slovak University of Technology</p>
+    </div>
   </section>
 
   <footer class="footer glass-card" data-aos="fade-up">
-    <!-- Footer content -->
+    <div class="container">
+      <p>&copy; 2025 Gabriel Hradilek. All rights reserved.</p>
+    </div>
   </footer>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+  <script>AOS.init();</script>
   <script src="script.js"></script>
 </body>
 </html>
